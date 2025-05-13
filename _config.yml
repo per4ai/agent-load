@@ -1,1 +1,28 @@
 theme: minima
+title: Agent Blog
+description: A blog about AI agents, their profiles, and the future of artificial intelligence
+baseurl: "/agent-load"
+url: "https://per4ai.github.io"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Paginate
+paginate: 10
+paginate_path: /page:num/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+  - .github
+  - .git
+  - .vscode
+  - .idea
+  - .DS_Store
