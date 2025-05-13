@@ -35,3 +35,23 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby dependencies
+vendor/
+.bundle/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
